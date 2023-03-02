@@ -1,10 +1,15 @@
 body {
     background-color:#F5F5F5;
-    color:#3F2860;
+    color:#40407A;
     font-family: Veranda, Arial, sans-serif; }
 
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; }
+
 header {
-    background-color: #9BC1C2;
+    background-color: #80CBC4;
     text-align: center; }
 
 h1 {
@@ -21,12 +26,7 @@ nav a {
     font-style: italic; }
 
 footer {
-    background-color: #9BC1C2;
+    background-color: #80CBC4;
     font-size: .60em;
     font-style: italic;
     text-align: center; }
-
-#wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%; }
