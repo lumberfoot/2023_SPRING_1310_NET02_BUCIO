@@ -26,11 +26,14 @@ main {
     padding-top: 1em;
     margin-left: 170px; }
 
-#floatleft {
+.studio {
+    font-style: italic; }
+
+.floatleft {
     float: left;
     margin-right: 4em; }
 
-#clear {
+.clear {
     clear: both; }
 
 h1 {
@@ -65,9 +68,6 @@ nav a:visited {
 nav a:hover {
     color: #A26100;
     border: 3px inset #333333; }
-
-.studio {
-    font-style: italic; }
 
 footer {
     background-color: #80CBC4;
