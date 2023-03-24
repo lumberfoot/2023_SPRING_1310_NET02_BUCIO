@@ -8,6 +8,10 @@
     margin-right: auto;
     width: 50%; }
 
+.float_left {
+    float: left;
+    margin-right: 4em; }
+
 body {
     background-color: #80CBC4;
     color: #40407A;
