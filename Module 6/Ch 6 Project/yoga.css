@@ -1,10 +1,5 @@
 * { box-sizing: border-box; }
 
-body {
-    background-color:#3F2860;
-    color:#40407A;
-    font-family: Veranda, Arial, sans-serif; }
-
 #wrapper {
     background-color: #F5F5F5;
     min-width: 1200px;
@@ -12,6 +7,21 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 80%; }
+
+.studio {
+    font-style: italic; }
+
+.floatleft {
+    float: left;
+    margin-right: 4em; }
+
+.clear {
+    clear: both; }
+
+body {
+    background-color:#3F2860;
+    color:#40407A;
+    font-family: Veranda, Arial, sans-serif; }
 
 header {
     background-color: #80CBC4;
@@ -25,16 +35,6 @@ main {
     padding-right: 2em;
     padding-top: 1em;
     margin-left: 170px; }
-
-.studio {
-    font-style: italic; }
-
-.floatleft {
-    float: left;
-    margin-right: 4em; }
-
-.clear {
-    clear: both; }
 
 h1 {
     padding-top: 50px;
