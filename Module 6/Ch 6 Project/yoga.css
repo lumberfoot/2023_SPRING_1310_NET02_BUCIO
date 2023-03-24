@@ -52,12 +52,12 @@ nav ul {
 
 nav a {
     display: block;
+    text-decoration: none;
     text-align: center;
     font-weight: bold;
-    text-decoration: none;
-    border-bottom: 3px solid #CCCCCC;
-    padding: 1em;
-    margin-bottom: 1em; }
+    border: 3px outset #CCCCCC;
+    margin-bottom: 1em;
+    padding: 1em; }
 
 nav a:link {
     color: #3F2860; }
