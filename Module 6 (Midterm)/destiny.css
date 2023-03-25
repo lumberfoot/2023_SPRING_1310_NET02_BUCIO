@@ -1,7 +1,7 @@
 body {
     background-color:#000000;
     color:#000000;
-    font-family: Veranda, Arial, sans-serif; }
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 #wrapper {
     background-color: #e7e8b2;
@@ -51,7 +51,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: #00f2ff;
     border: 4px outset #000000;
     padding: 4px; }
 
@@ -59,7 +59,7 @@ nav a:link {
     color: #00ff11; }
 
 nav a:visited {
-    color: #497777; }
+    color: #b8c322; }
 
 nav a:hover {
     color: #e7e8b2;
