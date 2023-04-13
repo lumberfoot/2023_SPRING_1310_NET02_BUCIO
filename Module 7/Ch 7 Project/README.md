@@ -1,0 +1,1 @@
+Chapter 7: Path of Light Yoga Studio Case Study
