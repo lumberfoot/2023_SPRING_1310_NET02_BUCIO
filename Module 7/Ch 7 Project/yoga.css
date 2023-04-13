@@ -1,44 +1,5 @@
 * { box-sizing: border-box; }
 
-/* Mobile CSS: START */
-@media (min-width: 600px) {
-    #flow {
-        display: flex;
-        flex-direction: row; }
-    #mobile {
-        display: none; }
-    #desktop {
-        display: inline; }
-    #mat_hero, #lounge_hero {
-        display: block;
-        padding: 1em; }
-    nav ul {
-        flex-flow: row nowrap;
-        justify-content: flex-end; }
-    nav li {
-        width: 7em; }
-    section {
-        padding-left: 2em;
-        padding-right: 2em; } }
-/* Mobile CSS: END */
-
-/* Tablet CSS: START */
-@media (min-width: 1024px) {
-    #wrapper {
-        margin: auto;
-        width: 80%; }
-    .home {
-        height: 50vh;
-        padding-left: 8em;
-        padding-top: 5em; }
-    .content {
-        height: 30vh;
-        padding-left: 8em;
-        padding-top: 1em; }
-    header {
-        font-size: 120%; } }
-/* Tablet CSS: END */
-
 #mobile {
     display: inline; }
 
@@ -145,3 +106,42 @@ footer {
     font-size: 0.60em;
     font-style: italic;
     text-align: center; }
+
+/* Mobile CSS: START */
+@media (min-width: 600px) {
+    #flow {
+        display: flex;
+        flex-direction: row; }
+    #mobile {
+        display: none; }
+    #desktop {
+        display: inline; }
+    #mat_hero, #lounge_hero {
+        display: block;
+        padding: 1em; }
+    nav ul {
+        flex-flow: row nowrap;
+        justify-content: flex-end; }
+    nav li {
+        width: 7em; }
+    section {
+        padding-left: 2em;
+        padding-right: 2em; } }
+/* Mobile CSS: END */
+
+/* Tablet CSS: START */
+@media (min-width: 1024px) {
+    #wrapper {
+        margin: auto;
+        width: 80%; }
+    .home {
+        height: 50vh;
+        padding-left: 8em;
+        padding-top: 5em; }
+    .content {
+        height: 30vh;
+        padding-left: 8em;
+        padding-top: 1em; }
+    header {
+        font-size: 120%; } }
+/* Tablet CSS: END */
