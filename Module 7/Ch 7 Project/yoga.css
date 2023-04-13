@@ -1,107 +1,67 @@
 * { box-sizing: border-box; }
 
 /* Mobile CSS: START */
-@media only all and (max-width: 768px) {
+@media (min-width: 600px) {
+    #flow {
+        display: flex;
+        flex-direction: row; }
     #mobile {
-        display: inline; }
+        display: none; }
     #desktop {
-        display: none; }
-    #hero {
-        display: none; }
-    .float_left {
-        float: none;
-        display: none; }
-    h1 {
-        padding-top: 0.25em;
-        padding-left: 1.5em;
-        width: 85%;
-        font-size: 2em;
-        text-align: center; }
-    nav a {
-        float: left;
-        padding: 0.5em;
-        margin-left: 0.5em;
-        width: 45%;
-        min-width: 6em; }
-    main {
-        padding: 0; }
-    footer {
-        padding: 0.5em;
-        margin: 0; } }
+        display: inline; }
+    #mat_hero, #lounge_hero {
+        display: block;
+        padding: 1em; }
+    nav ul {
+        flex-flow: row nowrap;
+        justify-content: flex-end; }
+    nav li {
+        width: 7em; }
+    section {
+        padding-left: 2em;
+        padding-right: 2em; } }
 /* Mobile CSS: END */
 
 /* Tablet CSS: START */
-@media only screen and (max-width: 1024px) {
-    #hero {
-        width: 100%;
-        height: auto; }
+@media (min-width: 1024px) {
     #wrapper {
-        width: 100%;
-        min-width: 0;
-        padding: 0;
-        margin: 0; }
-    .clear {
-        padding-left: 2em; }
-    .float_left {
-        margin-left: 2em;
-        margin-bottom: 1em; }
-    body {
-        padding: 0;
-        margin: 0; }
-    header {
-        padding-top: 1px; }
-    h1 {
+        margin: auto;
+        width: 80%; }
+    .home {
+        height: 50vh;
+        padding-left: 8em;
+        padding-top: 5em; }
+    .content {
+        height: 30vh;
+        padding-left: 8em;
         padding-top: 1em; }
-    h2 {
-        padding-left: 2em;
-        padding-right: 2em; }
-    h3 {
-        padding-left: 2em;
-        padding-right: 2em; }
-    p {
-        padding-left: 2em;
-        padding-right: 2em; }
-    dl {
-        padding-left: 2em;
-        padding-right: 2em; }
-    nav {
-        float: none;
-        width: auto;
-        padding-left: 2em; }
-    nav a {
-        float: left;
-        padding: 0.2em;
-        margin-left: 0.3em;
-        width: 23%; }
-    main {
-        clear: both;
-        padding-top: 2.5em;
-        padding-bottom: 2.5em;
-        padding-left: 1em;
-        padding-right: 1em;
-        margin: 0;
-        font-size: 90%; }
-    main ul {
-        margin-left: 2em; } }
+    header {
+        font-size: 120%; } }
 /* Tablet CSS: END */
 
 #mobile {
-    display: none; }
-
-#desktop {
     display: inline; }
 
-#hero {
-    padding-bottom: 1em;
-    padding-top: 1em; }
+#desktop {
+    display: none; }
+
+#mat_hero {
+    background-image: url(images/yogamat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: none; }
+
+#lounge_hero {
+    background-image: url(images/yogalounge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: none; }
 
 #wrapper {
     background-color: #F5F5F5;
-    min-width: 1200px;
-    max-width: 1480px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%; }
+    padding: 2em; }
 
 .clear {
     clear: both; }
@@ -109,68 +69,64 @@
 .studio {
     font-style: italic; }
 
-.float_left {
-    float: left;
-    margin-right: 4em;
-    margin-bottom: 1em; }
-
-.one_half {
-    float: left;
-    padding-left: 2em;
-    padding-right: 2em;
-    width: 50%; }
-
-.one_third {
-    float: left;
-    padding-left: 2em;
-    padding-right: 2em;
-    width: 33%; }
+.home, .content {
+    height: 20vh;
+    padding-left: 10%;
+    padding-top: 2em; }
 
 body {
     background-color:#3F2860;
     color:#40407A;
-    font-family: Verdana, Arial, sans-serif; }
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0; }
 
 header {
-    background-color: #80CBC4;
-    background-image: url(images/lilyheader.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 150px; }
+    background-color: #40407A;
+    background-image: url(images/sunrise.jpg);
+    background-size: 100% 100%;
+    color: #FFF;
+    font-size: 90%;
+    margin-top: 50px;
+    min-height: 200px; }
 
 header a {
     text-decoration: none; }
 
 header a:link {
-    color: #40407A; }
+    color: #FFF; }
 
 header a:visited {
-    color: #40407A; }
+    color: #FFF; }
 
 header a:hover {
-    color: #FFFFFF; }
-
-h1 {
-    padding-top: 50px;
-    padding-left: 2em; }
+    color: #EDF5F5; }
 
 nav {
-    float: left;
-    font-weight: bold;
-    width: 160px;
-    padding: 1em; }
+    background-color: #FFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0.5em 0 1em 1em;
+    text-align: right;
+    width: 100%;
+    z-index: 9999; }
 
 nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.2em;
     list-style-type: none;
-    padding-left: 0; }
+    margin: 0; }
+
+nav li {
+    display: inline;
+    padding: 0 1em;
+    width: 40%; }
 
 nav a {
     display: block;
-    text-decoration: none;
-    text-align: center;
-    border: 3px outset #CCCCCC;
-    margin-bottom: 1em;
-    padding: 1em; }
+    text-decoration: none; }
 
 nav a:link {
     color: #3F2860; }
@@ -179,19 +135,13 @@ nav a:visited {
     color: #497777; }
 
 nav a:hover {
-    color: #A26100;
-    border: 3px inset #333333; }
+    color: #A26100; }
 
-main {
-    display: block;
-    margin-left: 170px;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em; }
+section {
+    padding-left: 0.5em;
+    padding-right: 0.5em; }
 
 footer {
-    background-color: #80CBC4;
-    font-size: .60em;
+    font-size: 0.60em;
     font-style: italic;
-    text-align: center;
-    padding: 1em; }
+    text-align: center; }
