@@ -107,6 +107,25 @@ footer {
     font-style: italic;
     text-align: center; }
 
+table {
+    margin:auto;
+    margin-bottom: 1em;
+    width: 60%;
+    border: 1px solid #3F2860;
+    border-collapse: collapse; }
+
+td, th {
+    padding: 5px;
+    border: 1px solid #3F2860; }
+
+tr:nth-of-type(even) {
+    background-color: #DBE8E9; }
+
+caption {
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%; }
+
 /* Mobile CSS: START */
 @media (min-width: 600px) {
     #flow {
