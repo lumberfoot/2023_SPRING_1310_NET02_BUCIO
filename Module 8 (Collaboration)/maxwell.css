@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+
+body {
+    background-color: #3F2860;
+    color: #40407A;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0; }
+
+/* Mobile CSS: START */
+@media (max-width: 768px) {
+    #mobile {
+        display: none; }
+    #desktop {
+        display: inline; } }
