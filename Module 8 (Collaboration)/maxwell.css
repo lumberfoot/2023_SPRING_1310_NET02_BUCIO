@@ -1,10 +1,92 @@
 * { box-sizing: border-box; }
 
 body {
-    background-color: #3F2860;
-    color: #40407A;
+    background-color: #D8BFD8;
     font-family: Verdana, Arial, sans-serif;
     margin: 0; }
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+nav a:link {color: white;}
+nav a:visited {color: white;}
+nav a:hover{color: #D8BFD8;}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 20px; 
+    font-weight: bold;
+
+}
+
+.button{
+  background-color: grey; 
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+hr{
+    border: 1px solid white;
+}
+.indexh1{
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.indextext{
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    }
+
+.flex-container{
+    height: 350px;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.flex-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+figcaption {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+figure a:link {opacity: 1.0}
+figure a:hover {opacity: 0.5;}
+
+footer{
+    background-color: grey;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
 
 /* Mobile CSS: START */
 @media (max-width: 768px) {
