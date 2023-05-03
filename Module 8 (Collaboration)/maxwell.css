@@ -5,7 +5,6 @@ body {
     font-family: Verdana, Arial, sans-serif;
     margin: 0; }
 
-
 header {
     display: flex;
     flex-direction: column;
@@ -39,6 +38,7 @@ nav li {
 hr{
     border: 1px solid white;
 }
+
 .indexh1{
     margin: auto;
     padding-top: 50px;
@@ -51,6 +51,23 @@ hr{
     margin: auto;
     padding-top: 50px;
     }
+
+.page_h1 {
+    margin: auto;
+    padding-top: 50px;
+    text-align: center; }
+
+.page_h2 {
+    margin: auto;
+    padding-top: 50px;
+    text-align: left;
+    height: 75px;
+    width: 60%; }
+
+.page_text {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px; }
 
 .flex-container{
     height: 350px;
