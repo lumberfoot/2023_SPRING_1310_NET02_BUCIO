@@ -5,6 +5,7 @@ body {
     font-family: Verdana, Arial, sans-serif;
     margin: 0; }
 
+
 header {
     display: flex;
     flex-direction: column;
@@ -33,41 +34,29 @@ nav li {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 hr{
     border: 1px solid white;
 }
-
-.indexh1{
+.index-header{
     margin: auto;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
+    background-color: #c9a0cd;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.indextext{
-    height: 300px;
+.index-text{
+    height: 350px;
     width: 60%;
     margin: auto;
     padding-top: 50px;
     }
-
-.page_h1 {
-    margin: auto;
-    padding-top: 50px;
-    text-align: center; }
-
-.page_h2 {
-    margin: auto;
-    padding-top: 50px;
-    text-align: left;
-    height: 75px;
-    width: 60%; }
-
-.page_text {
-    width: 60%;
-    margin: auto;
-    padding-top: 50px; }
 
 .flex-container{
     height: 350px;
@@ -89,6 +78,69 @@ figcaption {
 
 figure a:link {opacity: 1.0}
 figure a:hover {opacity: 0.5;}
+
+.headerpages{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #c9a0cd;
+    border-radius: 12px;
+    width: 30%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+}
+
+.text1{
+    margin: auto;
+    height: 80px;
+    width: 60%;
+    padding-top: 15px;
+}
+
+.text2{
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+
+caption{
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+
+table{
+    margin: auto;
+    border: 5px solid #c9a0cd;
+    width: 80%;
+    border-collapse: collapse;
+
+}
+th{
+    background-color:#c9a0cd ;
+    height: 50px;
+    text-align: center;   
+}
+
+
+td{ text-align: center;}
+
+.tdtext{ width: 50%;}
+
+tr{
+    height: 85px;
+}
+tr:nth-of-type(even){background-color: #a2a2a2}
+
+.iconpages{
+    padding-top: 70px;
+}
+    
+
 
 footer{
     background-color: grey;
