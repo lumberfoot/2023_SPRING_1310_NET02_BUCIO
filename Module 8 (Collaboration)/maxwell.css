@@ -70,6 +70,19 @@ hr{
     justify-content: space-around;
 }
 
+.flex-quotes {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    width: 350px;
+    padding: 0 1em;
+}
+
 figcaption {
     padding-top: 10px;
     text-align: center;
