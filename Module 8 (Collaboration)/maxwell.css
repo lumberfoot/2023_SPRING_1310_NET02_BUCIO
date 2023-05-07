@@ -99,25 +99,35 @@ figure a:hover {opacity: 0.5;}
     padding-bottom: 20px;
     background-color: #c9a0cd;
     border-radius: 12px;
-    width: 30%;
+    width: 40%;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-   
+}
+
+.commentpages{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #c9a0cd;
+    border-radius: 12px;
+    width: 60%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .text1{
     margin: auto;
-    height: 80px;
     width: 60%;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .text2{
-    height: 200px;
-    width: 60%;
     margin: auto;
+    width: 60%;
     padding-top: 15px;
-    
+    padding-bottom: 15px;
 }
 
 caption{
@@ -131,12 +141,11 @@ table{
     border: 5px solid #c9a0cd;
     width: 80%;
     border-collapse: collapse;
-
 }
 th{
     background-color:#c9a0cd ;
     height: 50px;
-    text-align: center;   
+    text-align: center;
 }
 
 
