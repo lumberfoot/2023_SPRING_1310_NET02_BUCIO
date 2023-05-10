@@ -70,7 +70,7 @@ hr {
 .flex-quotes {
     padding: 20px 20px 0px; }
 
-section {
+.quotes-container {
     display: grid;
     gap: 50px;
     grid-template-columns: repeat(3, 1fr); }
@@ -175,8 +175,11 @@ footer {
 
     .flex-div {
         grid-template-columns: repeat(2, 1fr); }
+    
+    .quotes-container{
+    grid-template-columns: repeat(1, 1fr)}
 
-    .wide {
+    .wide { 
       grid-column: 1 / -1;
       width: 100%; } }
 
