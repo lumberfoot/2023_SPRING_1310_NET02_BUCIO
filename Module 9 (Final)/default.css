@@ -113,7 +113,8 @@ aside:nth-of-type(odd) {
     justify-self: end; }
 
 .td_text {
-    width: 50%; }
+    width: 50%;
+    text-align: justify; }
 
 table.horizontal {
     grid-column: span 4;
@@ -131,7 +132,7 @@ td {
     text-align: center; }
 
 tr {
-    height: 85px; }
+    height: 100px; }
 
 tr:nth-of-type(even){ background-color: #3d8ad8; }
 
