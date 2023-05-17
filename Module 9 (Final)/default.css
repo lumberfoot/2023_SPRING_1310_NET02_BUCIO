@@ -1,6 +1,124 @@
 * { box-sizing: border-box; }
 
-.row {}
+header, nav, main, img, figure,
+section, article, aside, footer {
+    display: block; }
+
+html {
+    height: 100%;
+    background-color: rgb(230, 182, 144); }
+
+#logo {
+    width: 100%;
+    grid-column: span 3; }
+
+nav.vertical {
+    background-color: rgb(61, 138, 216);
+    line-height: 2.5em; }
+
+nav.vertical a:link {
+    color: rgb(250, 238, 218); }
+
+nav.vertical:visited {
+    color: rgb(250, 238, 218); }
+
+nav.vertical a:hover {
+    background-color: rgb(0, 0, 0); }
+
+nav.horizontal {
+    grid-column: span 4; }
+
+nav.horizontal ul {
+   background-color: rgb(18, 31, 102);
+   font-size: 0.9em;
+   padding: 10px 0;
+   text-align: center; }
+
+nav.horizontal li {
+   background-color: rgb(18, 31, 102);
+   font-size: 0.9em;
+   padding: 10px 0;
+   text-align: center;
+   display: block;
+   width: 12.5%;
+   float: left; }
+
+nav.horizontal a:link {
+    color: rgb(250, 238, 218); }
+
+nav.horizontal:visited {
+    color: rgb(250, 238, 218); }
+
+nav.horizontal a:hover {
+    background-color: rgb(222, 179, 51); }
+
+nav ul {
+    list-style: none;
+    list-style-image: none; }
+
+nav a {
+    text-decoration: none; }
+
+body {
+    background-color: rgb(250, 238, 218);
+    font-family: Verdana, Arial, sans-serif;
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    display: grid;
+    line-height: 1;
+    grid-template-columns: 25% 25% 25% 25%; }
+
+section img {
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; }
+
+section {
+   margin-top: 20px;
+   margin-bottom: 20px; }
+
+section p {
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(95, 114, 232);
+    font-size: 1em; }
+
+aside {
+    width: 75%;
+    padding-bottom: 30px; 
+    grid-column: span 2; }
+
+aside p {
+    width: 75%;
+    margin-left: 5%;
+    float: left;
+    font-size: 1em;
+    color: rgb(121, 121, 121);
+    line-height: 1.2em; }
+
+aside img {
+    float: left;
+    width: 20%; }
+
+aside:nth-of-type(odd) {
+    justify-self: end; }
+
+footer {
+    grid-column: span 4;
+    color: rgb(186, 186, 156);
+    background-color: rgb(44, 91, 169);
+    font-size: 1em;
+    padding: 10px 0px;
+    text-align: center; }
 
 /* Mobile CSS: START
 @media (max-width: 992px) {
