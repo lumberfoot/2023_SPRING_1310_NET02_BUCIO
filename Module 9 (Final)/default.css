@@ -110,7 +110,7 @@ aside img {
     width: 20%; }
 
 aside:nth-of-type(odd) {
-    justify-self: end; }
+    justify-self:center; }
 
 .td_text {
     width: 50%;
@@ -144,11 +144,7 @@ footer {
     padding: 10px 0px;
     text-align: center; }
 
-/* Mobile CSS: START
-@media (max-width: 992px) {
-    .flex-div {
-        grid-template-columns: repeat(3, 1fr); } }
-
+/* Mobile CSS: START */
 @media (max-width: 768px) {
     #mobile {
         display: none; }
@@ -156,23 +152,27 @@ footer {
     #desktop {
         display: inline; }
 
-    .flex-div {
-        grid-template-columns: repeat(2, 1fr); }
+    nav.vertical {
+        width: 100%;
+        text-align: center;
+        grid-column: span 3; }
+
+    nav.horizontal {
+        font-size: 0.8em;
+        grid-column: span 3; }
     
-    .quotes-container{
-        grid-template-columns: repeat(1, 1fr)}
-
-    .wide { 
-      grid-column: 1 / -1;
-      width: 100%; } }
-
-@media (max-width: 576px) {
+    table.horizontal {
+        grid-column: span 3; }
+    
     section {
-        display: block; }
+        grid-column: span 3; }
 
-    table {
-        width: 90%; }
+    section img {
+        width: 20%; }
 
-    nav li {
-        display: block; } }
-*/
+    aside {
+        margin: auto;
+        grid-column: span 3; }
+
+    footer {
+        grid-column: span 3; } }
