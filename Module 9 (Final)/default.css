@@ -6,37 +6,37 @@ section, article, aside, footer {
 
 html {
     height: 100%;
-    background-color: rgb(230, 182, 144); }
+    background-color: #e6b690; }
 
 #logo {
     width: 100%;
     grid-column: span 3; }
 
 nav.vertical {
-    background-color: rgb(61, 138, 216);
+    background-color: #3d8ad8;
     line-height: 2.5em; }
 
 nav.vertical a:link {
-    color: rgb(250, 238, 218); }
+    color: #faeeda; }
 
 nav.vertical:visited {
-    color: rgb(250, 238, 218); }
+    color: #faeeda; }
 
 nav.vertical a:hover {
-    background-color: rgb(0, 0, 0); }
+    background-color: #000000; }
 
 nav.horizontal {
     grid-column: span 4; }
 
 nav.horizontal ul {
-   background-color: rgb(18, 31, 102);
-   font-size: 0.9em;
+   background-color: #121f66;
+   font-size: 1em;
    padding: 10px 0;
    text-align: center; }
 
 nav.horizontal li {
-   background-color: rgb(18, 31, 102);
-   font-size: 0.9em;
+   background-color: #121f66;
+   font-size: 1em;
    padding: 10px 0;
    text-align: center;
    display: block;
@@ -44,13 +44,13 @@ nav.horizontal li {
    float: left; }
 
 nav.horizontal a:link {
-    color: rgb(250, 238, 218); }
+    color: #faeeda; }
 
 nav.horizontal:visited {
-    color: rgb(250, 238, 218); }
+    color: #faeeda; }
 
 nav.horizontal a:hover {
-    background-color: rgb(222, 179, 51); }
+    background-color: #deb333; }
 
 nav ul {
     list-style: none;
@@ -60,7 +60,7 @@ nav a {
     text-decoration: none; }
 
 body {
-    background-color: rgb(250, 238, 218);
+    background-color: #faeeda;
     font-family: Verdana, Arial, sans-serif;
     width: 95%;
     min-width: 640px;
@@ -89,7 +89,7 @@ section p {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    color: rgb(95, 114, 232);
+    color: #5f72e8;
     font-size: 1em; }
 
 aside {
@@ -102,7 +102,7 @@ aside p {
     margin-left: 5%;
     float: left;
     font-size: 1em;
-    color: rgb(121, 121, 121);
+    color: #797979;
     line-height: 1.2em; }
 
 aside img {
@@ -112,10 +112,33 @@ aside img {
 aside:nth-of-type(odd) {
     justify-self: end; }
 
+.td_text {
+    width: 50%; }
+
+table.horizontal {
+    grid-column: span 4;
+    width: 100%;
+    margin: auto;
+    border: 5px solid #121f66;
+    border-collapse: collapse; }
+
+th {
+    background-color:#3d8ad8;
+    height: 50px;
+    text-align: center; }
+
+td {
+    text-align: center; }
+
+tr {
+    height: 85px; }
+
+tr:nth-of-type(even){ background-color: #3d8ad8; }
+
 footer {
     grid-column: span 4;
-    color: rgb(186, 186, 156);
-    background-color: rgb(44, 91, 169);
+    color: #baba9c;
+    background-color: #2c5ba9;
     font-size: 1em;
     padding: 10px 0px;
     text-align: center; }
