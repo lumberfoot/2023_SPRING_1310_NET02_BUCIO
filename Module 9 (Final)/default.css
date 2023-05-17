@@ -1,5 +1,7 @@
 * { box-sizing: border-box; }
 
+.row {}
+
 /* Mobile CSS: START
 @media (max-width: 992px) {
     .flex-div {
