@@ -11,11 +11,14 @@ Website Name: Slate & Pencil Tutoring </p>
 
 default.css
 <ul><li>
-This is the stylesheet for the website.</li></ul>
+This is the stylesheet for the website. Any changes <br>
+made here will update the text, layout, or color <br>
+scheme of the website.</li></ul>
 
 index.html
 <ul><li>
-This is the homepage for the website.</li></ul>
+This is the homepage for the website. Any changes made <br>
+here will update the homepage content and layout only.</li></ul>
 
 /images
 <ul><li>
@@ -36,7 +39,7 @@ All files pertaining to navigation bar 2 are located here.</li></ul>
 <p>
 "You have recently been hired as a junior Web designer <br>
 by “Slate and Pencil Tutoring services”, an Online <br>
-tutoring service for high school and college students." <br> </p>
+tutoring service for high school and college students." </p>
 
 <hr>
 
@@ -45,4 +48,4 @@ tutoring service for high school and college students." <br> </p>
 <p>
 "You have recently been hired as a junior Web designer <br>
 by “Slate and Pencil Tutoring services”, an Online <br>
-tutoring service for high school and college students." <br> </p>
+tutoring service for high school and college students." </p>
