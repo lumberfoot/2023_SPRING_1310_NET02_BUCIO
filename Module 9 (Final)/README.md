@@ -1,8 +1,8 @@
 <h3> CIS-1310-NET02 </h3>
 
-Student Name: David Bucio <br>
+<p> Student Name: David Bucio <br>
 Project Name: Spring 2023 Final <br>
-Website Name: Slate & Pencil Tutoring <br>
+Website Name: Slate & Pencil Tutoring <br> </p>
 
 <hr>
 
@@ -27,7 +27,7 @@ index.html <br>
 
 <h3> Brief </h3>
 
-"You have recently been hired as a junior Web <br>
+<p>"You have recently been hired as a junior Web <br>
 designer by “Slate and Pencil Tutoring services”, <br>
 an Online tutoring service for high school and <br>
-college students.
+college students.</p>
