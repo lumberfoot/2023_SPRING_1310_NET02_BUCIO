@@ -14,6 +14,8 @@ Website Name: Slate & Pencil Tutoring </p>
 by “Slate and Pencil Tutoring services”, an Online <br>
 tutoring service for high school and college students." </p>
 
+<hr>
+
 <h3> Master Files: </h3>
 
 default.css
