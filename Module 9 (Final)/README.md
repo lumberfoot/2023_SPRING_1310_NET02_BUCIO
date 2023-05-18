@@ -5,7 +5,7 @@ Website Name: Slate & Pencil Tutoring <br>
 <hr>
 <h3> Master Files: </h3>
 default.css <br>
-    > Contains styles <br>
+<ul><li>Text</li></ul>
 index.html <br>
 /images <br>
 /nav1 <br>
