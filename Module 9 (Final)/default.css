@@ -146,12 +146,6 @@ footer {
 
 /* Mobile CSS: START */
 @media (max-width: 768px) {
-    #mobile {
-        display: none; }
-
-    #desktop {
-        display: inline; }
-
     nav.vertical {
         width: 100%;
         text-align: center;
